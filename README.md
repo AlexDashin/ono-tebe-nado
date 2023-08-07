@@ -1,1 +1,1 @@
-(https://github.com/AlexDashin/ono-tebe-nado)
+https://github.com/AlexDashin/ono-tebe-nado
