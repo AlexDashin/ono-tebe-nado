@@ -33,7 +33,7 @@
   .header_menu-item:first-child {
     list-style: none;
   }
-   .header_menu-item_active  {
+   .header_menu-item_none  {
     text-transform: lowercase;
     margin: 0;
   }
@@ -59,15 +59,6 @@
   }
 
   /* TITTLE */
-  .tittle  {
-    min-height: 757px;
-    background-image:url('../images/cover.jpg');
-    background-repeat: no-repeat;
-    color: white;
-    background-position: center;
-    position: relative;
-    width: 98vw;
-  }
   .overlay {
     width: 100%;
     height: 100% ;
@@ -77,6 +68,16 @@
     top: 0;
     z-index: 1;
   }
+  .tittle  {
+    min-height: 757px;
+    background-image:url('../images/cover.jpg');
+    background-repeat: no-repeat;
+    color: white;
+    background-position: center;
+    position: relative;
+    width: 98vw;
+  }
+
 
   .title_span {
     font-size: 100px;
@@ -84,7 +85,8 @@
     font-weight: 700;
     line-height: 100%;
     text-transform: uppercase;
-
+    position: relative;
+    z-index: 1;
   }
 .accent-span {
     display: block;
@@ -114,6 +116,8 @@
     padding: 8px 1px;/*8px 48px--8px 1px*/
     font-weight: 400;
     font-size: 22px;
+    position: relative;
+    z-index: 1;
 }
 .auction_thing {
     word-spacing: 17px;
@@ -270,6 +274,7 @@
   align-items: center;
   list-style: none;
   margin-top: 2px;
+  margin-left: 48px;
 }
 .footer_menu-link {
   list-style: circle;
@@ -280,16 +285,16 @@
   font-style: normal;
   margin-top: 2px;
   line-height: 24.3px;
+  max-width: 240px;
 }
 .footer__social-link {
-  min-width: 240px;
   min-height: 48px;
   display: flex;
-  justify-content: space-between;
 }
 .footer__social-list-item {
   list-style: none;
   display: flex;
+  margin-left: 49px
 }
 .footer__social-icon_youtube {
   background-image: url('../images/yt.svg');
