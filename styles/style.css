@@ -135,7 +135,8 @@
     font-size: 22px;
     border: 1px solid white;
     text-transform: uppercase;
-    margin-right: -2px
+    margin-right: -2px;
+    font-family: 'Raleway';
 }
 
 /* LOTS */
@@ -252,10 +253,12 @@
  display: flex;
  flex-direction: column;
  font-size: 20px;
- /* margin-top:-3px; */
 }
-.about__text p:first-child {
+.about__text p {
   margin-bottom: 23px;
+}
+.about__text p:last-child {
+  margin-bottom: 0;
 }
 
 /* FOOTER */
@@ -278,6 +281,9 @@
 }
 .footer_menu-link {
   list-style: circle;
+}
+.links-list-item_no-bullit {
+  text-transform: lowercase;
 }
 .footer__address {
   display: flex;
