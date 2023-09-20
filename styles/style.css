@@ -71,7 +71,7 @@
   .tittle  {
     min-height: 757px;
     background-image:url('../images/cover.jpg');
-    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     background-position: center;
     position: relative;
@@ -137,7 +137,7 @@
     font-size: 22px;
     border: 1px solid white;
     text-transform: uppercase;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
 }
 
 /* LOTS */
@@ -283,7 +283,7 @@
 .footer_menu-link {
   list-style: circle;
 }
-.links-list-item_no-bullit {
+.links-list-item_lowercase-bullit {
   text-transform: lowercase;
 }
 .footer__address {
